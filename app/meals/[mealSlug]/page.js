@@ -10,8 +10,6 @@ export default function MealDetailsPage({ params }) {
     notFound();
   }
 
-  meal.instructions = meal.instructions.replace(/\n/g, "<br />");
-
   return (
     <>
       <header className={classes.header}>
@@ -27,12 +25,7 @@ export default function MealDetailsPage({ params }) {
         </div>
       </header>
       <main>
-        <p
-          className={classes.instructions}
-          dangerouslySetInnerHTML={{
-            __html: meal.instructions,
-          }}
-        ></p>
+        <p className={classes.instructions}>{meal.instructions}</p>
       </main>
     </>
   );
