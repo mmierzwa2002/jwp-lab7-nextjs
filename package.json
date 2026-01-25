@@ -9,9 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/blob": "^2.0.0",
+    "dotenv": "^17.2.3",
+    "mongodb": "^7.0.0",
+    "next": "15.0.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.0.5"
+    "slugify": "^1.6.6",
+    "xss": "^1.0.15"
   },
   "devDependencies": {
     "eslint": "^9.16.0",
