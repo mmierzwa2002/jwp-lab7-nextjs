@@ -20,9 +20,10 @@
 }
 
 .headerText {
-  padding: 2rem;
+  padding: 2rem 3rem;
   color: #ddd6cb;
   max-width: 40rem;
+  overflow: visible;
 }
 
 .headerText h1 {
@@ -32,7 +33,7 @@
   font-weight: bold;
   margin: 0;
   line-height: 1.3;
-  padding: 0.2rem 1rem;
+  padding: 0.2rem 0;
   overflow: visible;
   text-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
 }
