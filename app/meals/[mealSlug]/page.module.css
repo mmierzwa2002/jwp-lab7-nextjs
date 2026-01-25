@@ -31,17 +31,18 @@
   font-size: 3.5rem;
   font-weight: bold;
   margin: 0;
-  line-height: 1.2;
-  padding: 0.5rem 2rem;
+  line-height: 1.3;
+  padding: 0.2rem 1rem;
+  overflow: visible;
   text-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
 }
 
 .creator {
+  display: inline-block;
+  padding-right: 0.5rem;
   font-size: 1.5rem;
   color: #cfa69b;
   font-style: italic;
-  padding: 0.5rem 2rem;
-  display: inline-block;
 }
 
 .creator a {
