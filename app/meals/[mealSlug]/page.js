@@ -3,8 +3,8 @@ import { notFound } from "next/navigation";
 import { getMeal } from "@/lib/meals";
 import classes from "./page.module.css";
 
-export default function MealDetailsPage({ params }) {
-  const meal = getMeal(params.mealSlug);
+export default async function MealDetailsPage({ params }) {
+  const meal = await getMeal(params.mealSlug);
 
   if (!meal) {
     notFound();
